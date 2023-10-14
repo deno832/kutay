@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio loop autoplay src="https://github.com/deno832/basar/raw/main/eman.MP3" type="audio/mp3" id="ses">
+    </audio>
+
+    <img onclick="" id="image" src="basar.jpeg" alt="">
+
+    <script>
+        var ses = document.getElementById("ses");
+        var imgagee = document.getElementById("image");
+
+        // Sayfa yüklendiğinde bu JavaScript kodu çalışacak
+        imgagee.addEventListener("click", function() {
+            ses.play(); 
+        });
+    </script>
+</body>
+</html>
